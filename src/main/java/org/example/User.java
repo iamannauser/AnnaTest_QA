@@ -8,7 +8,6 @@ public class User implements Comparable<User> {
         this.birthPlace = birthPlace;
         this.zodiac = zodiac;
     }
-
     @Override
     public int compareTo(User other) {
         return this.zodiac.equals(other.zodiac) ? 0 : 1;
