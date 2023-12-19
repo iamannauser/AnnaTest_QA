@@ -40,4 +40,5 @@ class FractionTest {
 
         System.out.println("number1 equals number2? " + number1.equals(number2));
     }
+
 }
