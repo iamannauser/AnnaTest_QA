@@ -9,6 +9,7 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
@@ -40,5 +41,6 @@ class FractionTest {
 
         System.out.println("number1 equals number2? " + number1.equals(number2));
     }
+
 
 }
