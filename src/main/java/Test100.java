@@ -8,6 +8,7 @@ public class Test100 {
  @Test
     public void Translation(){
      open("https://translate.google.com/");
+
  }
 
 
